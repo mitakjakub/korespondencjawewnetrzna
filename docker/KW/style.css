@@ -1,0 +1,779 @@
+::selection {
+  background-color:  #3d3d5c; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background-color:  #3d3d5c; /* Gecko Browsers */
+}
+
+::hover {
+    background-color: yellow;
+}
+
+.ui-datepicker {
+width: 10em; /*what ever width you want*/
+}
+
+body {
+	background-color:black;
+	height: 100%;
+    margin: 0 0 100px;
+	color: black;
+	margin: 0;
+	font-size: 10px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right bottom; 
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	-webkit-print-color-adjust: exact;
+}
+body.gradient {
+    background:  url('img/dark_leather.png'), url('img/book.png') ; 
+    height: 100%;
+    color: white;
+    background-color: black;
+    margin: 0;
+    font-size: 11px;
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right, 97% 97%;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+th, td {
+    padding: 5px;
+    background-color: grey;
+    text-overflow: ellipsis;
+#    background-image: url('img/french-stucco.png');
+#   background-image: url('img/low-contrast-linen.png');
+    background-repeat: repeat;
+    background-opacity: 0.3;
+}
+th.a1, td.a1 {
+    padding: 5px;
+    border: 0px solid white;
+}
+th {
+    background-color: dimgrey;
+    background-image: url('img/french-stucco.png');
+	background-image: url('img/low-contrast-linen.png');
+    background-repeat: repeat;
+    background-opacity: 0.8;
+}
+table {
+    font-size: 11px;
+    padding: 2px;
+}
+
+table.a1 {
+    font-size: 11px;
+    padding: 2px;
+    border: 1px solid dimgrey;
+    background-color: grey;
+    border-radius: 10px 10px 10px 10px;
+}
+table.a2 {
+    font-size: 10px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+th.a2, td.a2 {
+    padding: 5px;
+    border: 1px dotted #333;
+    text-overflow: ellipsis;
+}
+td.a3 {
+    padding: 0px;
+    border: 0px solid grey;
+    text-overflow: none;
+    background-color: #8c8c8c;
+    text-align: left;
+    position: relative;
+}
+
+td.a3_trans {
+    padding: 0px;
+    border: 0px solid grey;
+    text-overflow: none;
+    background-color: transparent;
+    text-align: left;
+    position: relative;
+}
+td.a3_trans:hover {
+    background-color: transparent;
+}
+
+th.a4, td.a4 {
+        padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    #font-weight: bold;
+    color: black !important;
+    font-style: normal;
+    background-color: white !important;
+    font-size: 9px;
+    border: 1px solid #333;
+    text-overflow: ellipsis;
+}
+th.a41, td.a41 {
+        padding: 7px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: black !important;
+		background-color: #f0f0f5 !important;
+		font-size: 8px;
+		border: 1px solid #333;
+		text-overflow: ellipsis;
+}
+th.a5, td.a5 {
+        padding: 7px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: 3px solid #333;
+		text-overflow: ellipsis;
+		background-color: #777799;
+		font-size: 11px;
+}
+td.file {
+	margin: 0px; padding-top: 2px; padding-left:10px; padding-bottom: 2px; font-size: 9px; background-color: transparent; border-left: 1px dotted lightgrey; border-bottom: 1px dotted lightgrey;
+}
+td.a3:hover {
+	background-color: #8c8c8c;
+}
+td:hover {
+	background-color:  #3d3d5c;
+}
+
+td.a1:hover {
+	background-color: #333;
+}
+#tr:hover {
+#	background-color: grey;
+#}
+tr.b1:hover {
+	background-color: transparent;
+}
+
+div.container:hover {
+        color:silver;
+}
+div.card {
+	width: 100%;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+	text-align: center;
+	border-radius: 8px 8px 8px 8px;
+}
+div.header {
+	background-color:  #3d3d5c;
+	background-repeat: no-repeat;
+	background-position: right center; 
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold; 
+	background-origin: content-box;
+	box-shadow: 0 0px 2px 2px dimgrey, 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+}
+div.header1 {
+	background-color: black;
+	background-image: url("../img/word-64.png");
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: left center; 
+	color: white;
+	padding: 5px;
+	font-size: 16px;
+	background-origin: content-box;
+	border-radius: 8px 8px 0px 0px;
+}
+div.red_header2 {
+	background-color:  #3d3d5c;
+	background-image: url('img/low-contrast-linen.png'), url("..img/warning-4-64.png") ;
+	background-repeat: repeat, no-repeat;
+	background-opacity: 0.5, 1;
+	background-position: left center; 
+	border-radius: 5px 5px 0 0;
+	color: white;
+	padding: 5px;
+	padding-left: 25px;
+	font-size: 16px;
+	background-origin: content-box;
+	box-shadow: 0 0px 2px 2px dimgrey, 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+div.container {
+	background: linear-gradient(rgb(232,232,232), white), fixed;
+	background-color: white;
+	text-align: left;
+	padding: 5px;
+	font-size: 8px;
+	border-radius: 0px 0px 8px 8px;
+}
+div.container1 {
+	background-color: lightgrey;
+	padding: 5px;
+	font-size: 8px;
+	font-color: rgb(0, 131, 193);
+}
+div.container2 {
+/*	background-color: rgb(0, 131, 193);*/
+	background-color:  #8c8c8c;
+	background-image: url('img/french-stucco.png');
+	background-repeat: repeat, no-repeat, no-repeat;
+	padding: 5px;
+	font-size: 14px;
+	color: lightgrey;
+	font-face: Verdana;
+	box-shadow: 0 0px 2px 2px dimgrey, 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+}
+div.container3 {
+/*	background-color: rgb(0, 131, 193);*/
+	background-color:  #8c8c8c;
+	background-image: url('img/french-stucco.png'), url(img/wsawa2004.png);
+	background-repeat: repeat, no-repeat, no-repeat;
+	background-position: center, -60% 90%; 
+	padding: 5px;
+	font-size: 14px;
+	color: lightgrey;
+	font-face: Verdana;
+	box-shadow: 0 0px 2px 2px dimgrey, 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+}
+div.opis {
+	background: linear-gradient(rgb(232,232,232), white), fixed;
+	background-color: white;
+	text-align: left;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 0px 0px 4px 4px;
+}
+div.card1 {
+	width: 98%;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4), 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	text-align: center;
+	border-radius: 2px;
+}
+div.card2 {
+	width: 55%;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4), 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	text-align: center;
+	border-radius: 2px;
+}
+div.header1 {
+	background-color: rgb(0, 131, 193);
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	background-image: url("img/arrow-24-64.png"), url("img/arrow-88-64.png");
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: left center, right center;
+	background-origin: content-box;
+	border-radius: 8px 8px 0px 0px;
+
+}
+div.new {
+    width: 100%;
+    display: table;
+    width: 100%;
+    table-size: 100%;
+}
+div.armatextshadow {
+    text-shadow: 0 0 20px #000000;
+	background-color: red;
+}
+
+div.textshadow {
+    text-shadow: 0 0 20px #000000;
+}
+div.medium {
+    font-size: 10px;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+
+input {
+	    border: none;
+	    padding: 3px 3px;
+		font-size: 11px;
+	    background-color: #f1f1f1;
+	    border-radius: 4px;
+		font-weight: bold;
+	}
+input[disabled]{
+	font-color: red;
+}
+select {
+	width: 150px;
+	padding: 3px 3px;
+	border: none;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+input[type=submit].edycja {
+	background-color: grey;
+	color: white;
+	font-size: 9px;
+	box-shadow: 0 0px 0px 0px rgba(255, 255, 255, 0.9), 0px 0px 0px 0 rgba(0, 0, 0, 0.7), 0px 0px 0px 0 rgba(0, 0, 0, 0.5);
+	padding: 4px 8px;
+	text-align: center;	
+	text-decoration: none;
+	display: inline-block;
+	border: 1px dotted grey;
+	cursor: pointer;
+	border-radius: 8px;
+}
+input[type=submit].edycja1 {
+	background-color: dimgrey;
+	color: white;
+	font-size: 9px;
+	box-shadow: 0 0px 0px 0px rgba(255, 255, 255, 0.9), 0px 0px 0px 0 rgba(0, 0, 0, 0.7), 0px 0px 0px 0 rgba(0, 0, 0, 0.5);
+	padding: 4px 8px;
+	text-align: center;	
+	text-decoration: none;
+	display: inline-block;
+	border: 1px dotted grey;
+	cursor: pointer;
+	border-radius: 8px;
+}
+input[type=submit].edycja2 {
+	background-color: white;
+	color: black;
+	font-size: 9px;
+	box-shadow: 0 0px 0px 0px rgba(255, 255, 255, 0.9), 0px 0px 0px 0 rgba(0, 0, 0, 0.7), 0px 0px 0px 0 rgba(0, 0, 0, 0.5);
+	padding: 4px 8px;
+	text-align: center;	
+	text-decoration: none;
+	display: inline-block;
+	border: 1px dotted grey;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+input[type=submit]{
+	background-color:  #3d3d5c;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	box-shadow: 0 0px 1px 1px rgba(255, 255, 255, 0.9), 0px 3px 3px 0 rgba(0, 0, 0, 0.7), 0px 0px 3px 0 rgba(0, 0, 0, 0.5);
+	padding: 5px 30px;
+	text-align: center;	
+	text-decoration: none;
+	display: inline-block;
+	border: 1px dotted white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+input[type=submit]:hover {
+	background-color: white;
+	box-shadow: 0 0px 1px 1px #2d5986, 0px 1px 1px 0 rgba(0, 0, 0, 0.7), 0px 0px 1px 0 rgba(0, 0, 0, 0.5);
+	color: #2d5986;
+	text-shadow: 0 0 5px  #3d3d5c;
+}
+input[type=submit]:active {
+	background-color: white;
+	box-shadow: 0 0px 2px 2px #2d5986, 0px 2px 2px 0 rgba(0, 0, 0, 0.7), 0px 0px 2px 0 rgba(0, 0, 0, 0.5);
+	color: #2d5986;
+	text-shadow: 0 0 5px  #3d3d5c;
+	cursor: pointer;
+	font-weight: bold; 
+}
+input[type=checkbox] + title {
+	color: #ccc;
+	font-style: italic;
+} 
+textarea {
+    resize: none;
+	width: 400px;
+	border-radius: 4px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	
+}
+input[type=text] {
+	border-radius: 4px;
+	width: 150px;
+}
+input[type=password] {
+	border-radius: 4px;
+	width: 150px;
+}
+input[type=number] {
+	border-radius: 4px;
+	width: 150px;
+}
+input[type=date] {
+	border-radius: 4px;
+	width: 150px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: 1px dotted #1f1f2e  ;
+    #background-image: url('img/french-stucco.png');
+    #background-image: url('img/low-contrast-linen.png');
+
+}
+.trans {
+    list-style-type: none;
+	padding-top: 200px;
+    margin: 10px;
+	padding: 5px;
+	color: grey;
+	text-align: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+	font-size: 9px;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+	font-size: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color:   #3d3d5c;
+	text-shadow: 0 0 5px white;
+}
+.active {
+    background-color:  #3d3d5c;
+	opacity: 1;
+    filter: alpha(opacity=99);
+}
+
+.changepass {
+    background-color: #0c1927;
+	
+}
+.logout {
+    background-color:  #3d3d5c;
+}
+div.small {
+	font-size: 6px;
+}
+a.red:link, a.red:visited {
+	background-color:  #3d3d5c;
+	color: white;
+	font-size: 11px;
+	padding: 5px 10px;
+	box-shadow: 0 0px 1px 2px rgba(255, 255, 255, 0.9), 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;	
+	text-decoration: none;
+	display: inline-block;
+	border: 0px dotted white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+a.red:hover, a.red:active {
+	background-color: white;
+	box-shadow: 0 0px 1px 2px #2d5986, 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+	color: #2d5986;
+	cursor: pointer;
+}
+
+.drukuj {
+	display: none;
+}
+
+#watermark
+{
+background: url("img/wsa_tlo.png") no-repeat;
+   width: 100px;
+   height: 100px;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+@media print {
+    div {display: none;}
+	 @page 
+        {
+            size: auto;   /* auto is the current printer page size */
+            margin: 0mm;  /* this affects the margin in the printer settings */
+        }
+
+        body 
+        {
+            background-color:#FFFFFF; 
+            margin-top: 0px;  /* the margin on the content before printing */
+			margin-bottom: 0px;
+       }
+	
+	.drukuj {display: block;}
+}
+p.cc {
+	text-align: center;
+}
+div.big {
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	text-shadow: 0 0 20px #000000;
+}
+li .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	background-color: #333;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+	background-color: #333;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-bottom: 1px dotted dimgrey;
+    display: block;
+    text-align: left;
+    font-size: 8px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ui-datepicker {
+    width: 251px;
+    height: auto;
+    margin: 5px auto 0;
+    font: 8pt Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+.ui-datepicker a {
+    text-decoration: none;
+}
+/* DatePicker Table */
+.ui-datepicker table {
+	width: 100%;
+    border-width: 0px;
+    background-color: darkgrey;
+}
+.ui-datepicker-header {
+	#background: url('') repeat 0 0 #000;
+	background-image: url('img/french-stucco.png');
+    background-repeat: repeat;
+	background-color: #3d3d5c;
+    color: white;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+	font-weight: bold;
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	text-shadow: 1px -1px 0px dimgrey;
+	filter: dropshadow(color=dimgrey, offx=1, offy=-1);
+	line-height: 30px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #111;
+}
+.ui-datepicker-title {
+	text-align: center;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	background-image: url('img/french-stucco.png');
+	overflow: hidden;
+}
+.ui-datepicker-prev {
+	float: left;
+	background-position: center -30px;
+}
+.ui-datepicker-next {
+	float: right;
+	background-position: center 0px;
+}
+.ui-datepicker thead {
+	background-color: #f7f7f7;
+	background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));
+	background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );
+	#border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+	text-transform: uppercase;
+	font-size: 8pt;
+	padding: 5px 0;
+	color: black;
+	text-shadow: 1px 0px 0px grey;
+	filter: dropshadow(color=grey, offx=1, offy=0);
+}
+.ui-datepicker tbody td {
+	padding: 0;
+	#border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody td:last-child {
+	#border-right: 0px;
+}
+.ui-datepicker tbody tr {
+	#border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+	#border-bottom: 0px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	color: #666666;
+	text-shadow: 1px 1px 0px #fff;
+	filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+	background: #ededed;
+	background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+	background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+	#-webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+	#-moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+	#box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-calendar .ui-state-hover {
+	background: white;
+    font-weight: bold;
+    color: red;
+    textshadow: none;
+    filter: none;
+}
+.ui-datepicker-calendar .ui-state-active {
+	background: #2d5986;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	color: yellow;
+    font-weight: bold;
+	text-shadow: 0px 1px 0px #2d5986;
+	filter: dropshadow(color=#2d5986, offx=0, offy=1);
+	#border: 1px solid #55838f;
+	position: relative;
+	#margin: -1px;
+}
+.ui-datepicker-unselectable .ui-state-default {
+	background: #f4f4f4;
+	color: white;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+	width: 33px;
+	margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+	width: 33px;
+	margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+	height: 33px;
+	margin-bottom: 0;
+}
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+.ui-widget-content {
+    background: yellow;
+    
+	background-image: url('img/low-contrast-linen.png'), url("img/warning-4-64.png") ;
+	background-repeat: repeat, no-repeat;
+	background-opacity: 0.5, 1;
+	background-position: left top, bottom right; 
+    font-size: 13px;
+}
+
+.ui-dialog {
+    background-color: grey;
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+    border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0px 2px 2px dimgrey, 0px 6px 12px 0 rgba(0, 0, 0, 0.7), 0px 0px 5px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+    font-size: 12px;
+    color: white;
+	background-image: url('img/low-contrast-linen.png');
+	background-repeat: repeat;
+	background-opacity: 0.5;
+	background-color: #3d3d5c;
+    border-radius: 5px 5px 0px 0px;
+}
+.ui-dialog-titlebar-close {
+    border: none 1px white;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+	background-color: #3d3d5c;
+	background-image: url('img/low-contrast-linen.png');
+	background-repeat: repeat;
+	background-opacity: 0.5;
+}
