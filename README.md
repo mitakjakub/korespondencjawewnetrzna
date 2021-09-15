@@ -37,6 +37,8 @@ Wiele uwag - nie ma howto - trzeba przejrzeć kod, popatrzeć, czy gdzieś o czy
 
 Dwa typy użytkowników - admin może więcej.
 
+Dodanie konta admina w aplikacji - w katalogu sql znajduje się odpowiedni plik sql - dodaje konto admin z hasłem sysadmin.
+
 Tworzenie komórek organizacyjnych - gdzieś było, ale ta wersja jej nie ma z jakiegoś powodu, więc trzeba popracować rękoma w bazie.
 
 Kolejna uwaga - to jest staroć, jak wcześniej napisałem, nigdy nie programowałem, uznałem to za jakieś tam wyzwanie i chęć napisania czegoś swojego - więc nie ma to może w wielu miejscach sensu, jest rozdmuchane, powiela kod wielokrotnie itp, jest paskudne, niegodne życia i wymaga wbicia osinowego kołka w serce. 
