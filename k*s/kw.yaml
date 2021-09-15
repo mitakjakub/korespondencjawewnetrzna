@@ -33,6 +33,8 @@ spec:
             cpu: "500m"
         ports:
         env:
+        - name: KW_EMAIL_SUPPORT
+          value: kw@kw.local
         - name: MARIADB_DATABASE
           value: ksnadawcza
         - name: MARIADB_USER

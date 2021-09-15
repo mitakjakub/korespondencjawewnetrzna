@@ -5,7 +5,7 @@ include("include/if.php");
 $_NEWPOST = array_map("strip_tags", $_POST);
 function GOTOHELL() 
 {
-	$to  = 'jakub.mitak@gmail.com'; 
+	$to  = getenv('KW_EMAIL_SUPPORT'); 
 	$subject = 'Zgłoszenie błędu / usprawnienia do aplikacji od użytkownika ' .$_SESSION['dbusername']. '';
 	$message = '
 	<html>
@@ -42,7 +42,7 @@ function GOTOHELL()
 	$_SESSION['Informacja_wysylka'] = "<b><font color=\"yellow\">Zgłoszenie zostało przekazane do autora</font></b>";
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-	$headers .= 'From: "Korespondencja Wewnętrzna" <jakub.mitak@gmail.com>' . "\r\n";
+	$headers .= 'From: "Korespondencja Wewnętrzna"<'. getenv('KW_EMAIL_SUPPORT') .'>' . "\r\n";
 	mail($to, $subject, $message, $headers);
 	header("Location: $_SERVER[HTTP_REFERER]");	
 echo $message;
@@ -50,7 +50,7 @@ echo $message;
 }
 
 
-if($_SERVER['HTTP_REFERER'] == "https://mitak.pl/fallingawayfromme/KW/zgloszenie.php")
+if($_SERVER['HTTP_REFERER'] == "https://kw.local/zgloszenie.php")
 {
 GOTOHELL();
 }
