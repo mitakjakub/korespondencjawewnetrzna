@@ -31,6 +31,9 @@ W telegraficznym skrócie - **my way or the highway**:
 - załadowanie yamli do k*s
 - dodanie schematu do bazy na podzie mariadb
 - korzystanie i cieszenie się wspaniałym wyglądem i designem rodem z dalekiej prowincji
+![Screenshot 2021-09-16 at 11-24-29 Korespondencja wewnętrzna Logowanie](https://user-images.githubusercontent.com/48350260/133588328-8d35664f-a92d-4638-bffe-9caa76db821e.png)
+![KW](https://user-images.githubusercontent.com/48350260/133590493-482beacc-2a02-415f-985f-0d0f16264662.png)
+
 
 ## Uwagi
 Wiele uwag - nie ma howto - trzeba przejrzeć kod, popatrzeć, czy gdzieś o czymś nie zapomniałem i nie leży na sztywno zaszyta nazwa hosta - na wszelki wypadek podpowiem - użyłem na własne potrzeby nazwy kw.local - tak też prowadzi ingress.
@@ -69,3 +72,4 @@ Pewne jest to, ze rozwiązanie korzysta z ogólnie dostępnych rozwiązań, a te
     - tła: https://www.toptal.com/designers/subtlepatterns/
 
     - ikony: https://fonts.google.com/icons
+
